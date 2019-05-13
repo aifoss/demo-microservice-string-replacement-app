@@ -54,9 +54,9 @@ public class StringReplacementServiceImpl implements StringReplacementService {
 		processingTime = end-start;
 		
 		LOGGER.info("Cache miss!");
-        LOGGER.info("Processing time: "+processingTime);
-        
-        return new StringReplacementOutput(resultString, processingTime);
+		LOGGER.info("Processing time: "+processingTime);
+
+		return new StringReplacementOutput(resultString, processingTime);
 	}
 	
 	@VisibleForTesting
@@ -79,7 +79,7 @@ public class StringReplacementServiceImpl implements StringReplacementService {
 		
 		haystack = replace(haystack, needle, replacement);
 
-        return reverseWords(haystack);
+		return reverseWords(haystack);
 	}
 	
 	private String replace(String haystack, String needle, String replacement) {

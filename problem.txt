@@ -1,5 +1,11 @@
-Please write a reversed string replacement method (public String ecalpeResrever(...) ) that takes three String arguments, ‘haystack,’ ‘needle,’ and ‘replacement’.
+Please write a reversed string replacement method (public String ecalpeResrever(...) )
+that takes three String arguments, ‘haystack,’ ‘needle,’ and ‘replacement’.
 
-The method will perform a left-to-right string replacement, followed by reversing the resultant strings *words*. ie. (“I like cats”, “cat”, “dog”)“dogs like I”
+The method will perform a left-to-right string replacement,
+followed by reversing the resultant strings *words*.
+ie. (“I like cats”, “cat”, “dog”) -> “dogs like I”
 
-The method will be tested for speed and correctness on haystacks up to one megabyte. There is a fast linear solution to this problem. Be aware of edge cases. Please leave all testing code intact so that we may evaluate your testing procedure. If you wish to use JUnit, you can create a separate class with ‘Test’ appended to the end of your primary class’ name, and extending TestCase.
+The method will be tested for speed and correctness on haystacks up to one megabyte.
+There is a fast linear solution to this problem.
+Be aware of edge cases.
+Please leave all testing code intact so that we may evaluate your testing procedure.

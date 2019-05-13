@@ -2,6 +2,8 @@
 
 Simple Demo Microservice with REST API for String Replacement
 
+(The problem given is only about implementing a string replacement method.)
+
 ## Tools/Technologies Used:
 
 * Java 8
